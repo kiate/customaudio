@@ -1,11 +1,15 @@
 #include "pxt.h"
 
-using namespace pxt;
-
 namespace customaudio {
 
     //%
+    int dummy() {
+        return 1;
+    }
+
+    //%
     void setSilenceLevel(int level) {
-        uBit.serial.send("hello\n"); //uBit.audio.setSilenceLevel(level);
+        // placeholder safe call
+        uBit.serial.send("hello\n");
     }
 }
