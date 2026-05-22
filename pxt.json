@@ -8,7 +8,7 @@
         "main.blocks",
         "main.ts",
         "main.cpp",
-        "README.md",
+        "README.md"
     ],
     "supportedTargets": [
         "arcade"
