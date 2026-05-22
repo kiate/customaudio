@@ -5,17 +5,11 @@
         "core": "*"
     },
     "files": [
-        "custom.ts",
-        "custom.cpp",
+        "main.blocks",
+        "main.ts",
+        "main.cpp",
         "README.md",
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "4.1.2",
-        "targetId": "arcade"
-    },
     "supportedTargets": [
         "arcade"
     ]
