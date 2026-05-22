@@ -6,6 +6,6 @@ namespace customaudio {
 
     //%
     void setSilenceLevel(int level) {
-        uBit.audio.setSilenceLevel(level);
+        uBit.serial.send("hello\n"); //uBit.audio.setSilenceLevel(level);
     }
 }
